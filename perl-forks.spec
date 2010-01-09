@@ -8,7 +8,7 @@
 Summary(pl.UTF-8):	drop-in replacement for Perl threads using fork()
 Name:		perl-forks
 Version:	0.33
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -45,6 +45,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
+%{perl_vendorarch}/forks.pm
 %dir %{perl_vendorarch}/auto/forks
 %attr(755,root,root) %{perl_vendorarch}/auto/forks/*.so
 %{perl_vendorarch}/forks
