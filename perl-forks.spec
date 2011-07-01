@@ -7,13 +7,13 @@
 %define		pnam	forks
 Summary(pl.UTF-8):	drop-in replacement for Perl threads using fork()
 Name:		perl-forks
-Version:	0.33
-Release:	3
+Version:	0.34
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/R/RY/RYBSKEJ/%{pnam}-%{version}.tar.gz
-# Source0-md5:	1f7a23987abd6df7ed5735badacffe99
+# Source0-md5:	26e5b395cb24975f9b99414fe1d748f1
 URL:		http://search.cpan.org/dist/forks/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
