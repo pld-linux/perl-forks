@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	forks
 %define		pnam	forks
 Summary(pl.UTF-8):	drop-in replacement for Perl threads using fork()
